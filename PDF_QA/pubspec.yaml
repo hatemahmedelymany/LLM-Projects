@@ -1,0 +1,20 @@
+name: flutter_web_rag
+description: A Flutter Web app to upload a PDF and ask questions via a Kaggle ngrok RAG API.
+publish_to: 'none'
+version: 1.1.0+2
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  file_picker: ^8.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
